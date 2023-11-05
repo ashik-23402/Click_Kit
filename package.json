@@ -1,0 +1,19 @@
+{
+  "name": "click_kit",
+  "version": "1.0.0",
+  "description": "e-commerce application",
+  "main": "BackEnd/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashik-23402/Click_Kit.git"
+  },
+  "author": "ashik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashik-23402/Click_Kit/issues"
+  },
+  "homepage": "https://github.com/ashik-23402/Click_Kit#readme"
+}
