@@ -4,7 +4,9 @@
   "description": "e-commerce application",
   "main": "BackEnd/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node BackEnd/server.js",
+    "dev": "nodemon BackEnd/server.JS"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/ashik-23402/Click_Kit/issues"
   },
-  "homepage": "https://github.com/ashik-23402/Click_Kit#readme"
+  "homepage": "https://github.com/ashik-23402/Click_Kit#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^6.2.0",
+    "mongoose": "^8.0.0",
+    "nodemon": "^3.0.1"
+  }
 }
